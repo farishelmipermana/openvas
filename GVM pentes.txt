@@ -1,0 +1,13 @@
+GVM: install
+
+sudo apt install gvm -y
+sudo gvm-setup
+sudo gvm-feed-update
+sudo gvm-start
+
+akses melalui --> https://127.0.0.1:9392
+
+set diterminal:
+$ sudo -E -u _gvm -g _gvm gvmd --user=admin --new-password=NEW_PASSWD
+admin
+NEW_PASSWD
